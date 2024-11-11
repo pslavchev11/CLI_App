@@ -1,0 +1,9 @@
+processes:
+  - name: "example_process"
+    tasks:
+      - name: "write_to_file_task"
+        class: "writefile"
+        params:
+          output: "output.txt"
+          command: |
+            {{ "Hello, Pacata! You are the most handsome guy!" | printf "%s" }}

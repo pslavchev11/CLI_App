@@ -1,0 +1,15 @@
+processes:
+  - name: postgres_installation
+    tasks:
+      - name: install_postgres
+        class: localCmd
+        params:
+          command: "choco install postgresql -y"
+      - name: verify_postgres_installation
+        class: localCmd
+        params:
+          command: "psql --version"
+      - name: uninstall_postgres
+        class: localCmd
+        params:
+          command: "choco uninstall postgresql -y"

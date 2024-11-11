@@ -1,0 +1,3 @@
+prefix: 2024/02/26 21:14:12 log_test1.go:38: This is a custom log message
+prefix: 2024/02/26 21:14:33 log_test1.go:38: This is a custom log message
+prefix: 2024/02/26 21:18:36 log_test1.go:38: This is a custom log message

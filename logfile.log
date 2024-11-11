@@ -1,0 +1,13 @@
+CLIApp: 2024/03/12 16:04:39 main.go:76: Running process: process1
+CLIApp: 2024/03/12 16:04:41 local_command.go:29: Command output:
+Executing task1 for process1
+
+CLIApp: 2024/03/12 16:04:41 local_command.go:29: Command output:
+Executing task2 for process1
+
+CLIApp: 2024/03/12 16:04:41 main.go:89: Process completed
+CLIApp: 2024/03/12 16:04:41 main.go:76: Running process: process2
+CLIApp: 2024/03/12 16:04:41 local_command.go:29: Command output:
+Executing task3 for process2
+
+CLIApp: 2024/03/12 16:04:41 main.go:89: Process completed

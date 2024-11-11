@@ -1,0 +1,18 @@
+processes:
+  - name: process1
+    tasks:
+      - name: task1
+        params:
+          command: "echo 'Executing task1 for process1'"
+        class: localCmd
+      - name: task2
+        params:
+          command: "echo 'Executing task2 for process1'"
+        class: localCmd
+
+  - name: process2
+    tasks:
+      - name: task3
+        params:
+          command: "echo 'Executing task3 for process2'"
+        class: localCmd

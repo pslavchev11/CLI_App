@@ -1,0 +1,11 @@
+processes:
+  - name: "ssh_process"
+    tasks:
+      - name: "ssh_task"
+        class: "ssh"
+        params:
+          username: "PlaMir"
+          host: "192.168.56.1"
+          private_key: C:\Users\PlaMir\.ssh/id_rsa
+          passphrase_hash: 
+          command: "dir C:\\"
